@@ -1,0 +1,28 @@
+.navbar-dark{
+    background-color: black;
+}
+
+.nav-icon{
+    margin: 5px 0px 5px;
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+}
+
+.hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #acacac;
+}
+.hr-icon {
+    position: relative;
+    top: 3px;
+    color: #acacac;
+}
+  
+
+.navbar.navbar-expand-lg.navbar-light.p-3{
+    padding-bottom: 0px;
+}
