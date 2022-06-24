@@ -15,28 +15,32 @@
 }
 
 .hr-line {
-    width: 100%;
+    width: 50%;
     position: relative;
     margin: 15px;
     border-bottom: 1px solid #636871;
 }
 
 .hr-icon {
+    text-align: center;
     position: relative;
     color: #00adb5;
 }
   
-#navwrap{
-    padding: 10px 15px 0px 15px;
+#bod{
+    height: 10px;
+    background-color: #00adb5;
 }
 
 .navbar-brand{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Libre Baskerville', serif;
+    font-style: normal;
+    font-weight: 100;
     color: #ffffff !important;
 }
 
 .nav-link.mx-2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff !important;
 }
 
@@ -72,3 +76,4 @@
     color: #5cdfe7;
     color: #007d85;
 }
+
