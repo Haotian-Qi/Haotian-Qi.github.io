@@ -1,9 +1,13 @@
 .navbar-dark{
-    background-color: black;
+    background-color: 222831 !important;
 }
 
 .nav-icon{
-    margin: 5px 0px 5px;
+    color: #ffffff !important;
+}
+
+.nav-icon:hover{
+    color: #00adb5 !important;
 }
 
 .hr-theme-slash-2 {
@@ -14,15 +18,48 @@
     width: 100%;
     position: relative;
     margin: 15px;
-    border-bottom: 1px solid #acacac;
+    border-bottom: 1px solid #636871;
 }
+
 .hr-icon {
     position: relative;
-    top: 3px;
-    color: #acacac;
+    color: #00adb5;
 }
   
+#navwrap{
+    padding: 10px 15px 0px 15px;
+}
 
-.navbar.navbar-expand-lg.navbar-light.p-3{
-    padding-bottom: 0px;
+.navbar-brand{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff !important;
+}
+
+.nav-link.mx-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff !important;
+}
+
+.nav-link.mx-2:hover{
+    color: #00adb5 !important;
+}
+
+.headwrap{
+    background-color: #13181f;
+}
+
+.nav-link.text-dark.nav-icon.text-muted{
+    padding: 0px;
+}
+
+.nav.col-md-4.justify-content-end.list-unstyled.d-flex{
+    margin-right: 30px;
+}
+
+.mb-3.mb-md-0.text-muted{
+    margin-left: 30px;
+}
+
+#email{
+    color: #636871 !important;
 }
