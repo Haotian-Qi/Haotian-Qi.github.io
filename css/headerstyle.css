@@ -49,7 +49,12 @@
 }
 
 .headwrap{
+    margin: auto;
     background-color: #13181f;
+}
+
+.content{
+    margin: 50px 50px;
 }
 
 .nav-link.text-dark.nav-icon.text-muted{
