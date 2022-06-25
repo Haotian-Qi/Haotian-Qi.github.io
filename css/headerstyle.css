@@ -33,9 +33,7 @@
 }
 
 .navbar-brand{
-    font-family: 'Libre Baskerville', serif;
-    font-style: normal;
-    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
     color: #ffffff !important;
 }
 
@@ -82,3 +80,19 @@
     color: #007d85;
 }
 
+.navbar-toggler{
+    background-color: #00adb5 !important;
+}
+
+.nav-container{
+    height: 85px;
+}
+
+#navwrap{
+    padding-top: 17px;
+}
+
+.brandtext{
+    margin-top: 7.5px !important;
+    margin-bottom: 0;
+}
