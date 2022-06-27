@@ -96,3 +96,42 @@
     margin-top: 7.5px !important;
     margin-bottom: 0;
 }
+
+.post-preview > a {
+    color: #212529;
+    text-decoration: none;
+  }
+  .post-preview > a:focus, .post-preview > a:hover{
+    text-decoration: none;
+    color: #007d85;
+  }
+  .post-preview > a > .post-title {
+    font-size: 1.875rem !important;
+    margin-top: 1.875rem !important;
+    margin-bottom: 0.625rem !important;
+    font-weight: bold !important;
+  }
+  .post-preview > a > .post-subtitle {
+    font-weight: 300 !important;
+    margin-bottom: 0.625rem !important;
+  }
+  .post-preview > .post-meta {
+    font-size: 1.125rem !important;
+    font-style: italic;
+    margin-top: 0;
+    color: #6c757d;
+  }
+  .post-preview > .post-meta > a {
+    text-decoration: none;
+  }
+
+  @media (min-width: 992px) {
+    .post-preview > a > .post-title {
+      font-size: 2.25rem;
+    }
+  }
+
+  .badge{
+    background-color: #00adb5;
+    margin-bottom: 10px;
+  }
