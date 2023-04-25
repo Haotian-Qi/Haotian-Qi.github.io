@@ -9,11 +9,17 @@
 .color-dark{
   color: #2c262a !important; /* green */
 }
-
-.color-red{
-  color: #f33c30 !important; /* blue */
+.color-blue{
+  color: #1141d3
 }
 
+.color-red{
+  color: #ff5363 !important; /* blue */
+}
+
+.badge-primary{
+  background-color: #4e4c64;
+}
 /* stylelint-disable selector-list-comma-newline-after */
 .pt{
   color: #2c262a !important;
@@ -52,8 +58,12 @@
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+h5{
+  font-family: Helvetica, Arial, sans-serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
 
 .display-4 {
@@ -99,8 +109,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
+@media screen and (min-width: 768px) {
+  .h-md-250 { height: 450px; }
 }
 
 /* Pagination */
@@ -122,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5rem;
 }
 .blog-post-meta {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
   color: #727272;
 }
 
